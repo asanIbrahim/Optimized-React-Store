@@ -1,7 +1,7 @@
 export const products = [
     {
       id: 1,
-      title: "Nike Shoe",
+      title: "Nike Shoes",
       price: 2000
     },
     {
