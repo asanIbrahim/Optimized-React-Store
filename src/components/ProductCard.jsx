@@ -1,7 +1,7 @@
 import React from "react";
 
 const ProductCard = React.memo(({ product, onAdd }) => {
-console.log("render", product.title);
+console.log("render", product.title,product.price);
   return (
     <div>
       <h3>{product.title}</h3>
