@@ -9,7 +9,7 @@ export default function Navbar() {
         <nav style={{ display: "flex", gap: "20px", padding: "10px"}}>
             <Link to={'/'}> Homes</Link>
             <Link to="/cart"> Cart ({cartLength})</Link>
-            <Link to="/checkout"> Checkout page </Link>
+            <Link to="/checkout"> Checkout pages </Link>
         </nav>
     )
 }
