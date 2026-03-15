@@ -6,7 +6,7 @@ export default function Navbar() {
     const cartLength = cartItem.length
 
     return (
-        <nav style={{ display: "flex", gap: "20px", padding: "10px", background: "#222" }}>
+        <nav style={{ display: "flex", gap: "20px", padding: "10px"}}>
             <Link to={'/'}> Homes</Link>
             <Link to="/cart"> Cart ({cartLength})</Link>
             <Link to="/checkout"> Checkout pages </Link>
