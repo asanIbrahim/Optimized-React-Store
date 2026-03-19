@@ -8,7 +8,7 @@ export default function Navbar() {
     return (
         <nav style={{ display: "flex", gap: "20px"}}>
             <Link to={'/'}> Home</Link>
-            <Link to="/cart"> Cart ({cartLength})</Link>
+            <Link to="/cart"> Carts ({cartLength})</Link>
             <Link to="/checkout"> Checkout page</Link>
         </nav>
     )
