@@ -14,8 +14,6 @@ const filterData = useMemo(()=> {
 },[data,debouncedSearchText])
 
 
-console.log("sear" ,search);
-console.log("filter" ,filterData);
   return (
     <div style={{margin:'20px'}}>
     <input type='text' style={{margin:'20px'}} name='search'  value={search} onChange={(e)=> setSearch(e.target.value)}/>
