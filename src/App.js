@@ -1,8 +1,7 @@
 
 import AppRoute from "./page/AppRoute";
-import Count from './component/Count/Count';
-import Table from './component/table/Table';
 import { ThemeProvider } from "./context/ThemeContext";
+import EmployeeForm from "./component/form/EmployeeForm";
 
 export default function App() {
 
@@ -11,8 +10,7 @@ export default function App() {
     <ThemeProvider>
     <div style={{ width: 400, margin: "20px auto" }}>
      <AppRoute/>
-      <Count/>
-      <Table/>
+     <EmployeeForm/>
       
     </div>
     </ThemeProvider>
